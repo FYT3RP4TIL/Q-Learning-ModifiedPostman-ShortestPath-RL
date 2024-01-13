@@ -9,12 +9,12 @@ The AI agent's goal is to learn the shortest path between the item packaging are
 
 ## 1. Define the Problem:
 
-* State Space: In this context, the cities and the locations where the postman can travel represent the state space. Each location is a state.
+* State Space: In this context, the cities and the locations where the postman AI Agent can travel represent the state space. Each location is a state.
   * City Boundaries (black squares)
   * Travel Spaces (white squares)
   * Item Packaging / Shipping Area (green squares)
 * Action Space: Possible actions are movements from one location to another.
-    * The actions that are available to the AI agent are to move the postman in one of four directions :
+    * The actions that are available to the AI agent are to move the postman AI Agent in one of four directions :
         * Up
         * Right
         * Down
@@ -37,9 +37,9 @@ The AI agent's goal is to learn the shortest path between the item packaging are
 ## 4. Q-learning Algorithm:
 
 ### Exploration vs. Exploitation:
-* At each step, the postman chooses an action based on the current Q-values.
-* With probability ε, the postman explores a random action.
-* With probability 1-ε, the postman exploits the action with the highest Q-value.
+* At each step, the postman AI Agent chooses an action based on the current Q-values.
+* With probability ε, the postman AI Agent explores a random action.
+* With probability 1-ε, the postman AI Agent exploits the action with the highest Q-value.
     
     * Bellman Equation - \
       \
@@ -75,11 +75,11 @@ The AI agent's goal is to learn the shortest path between the item packaging are
 ## 5. Training:
 
 * Let the postman explore the city, updating Q-values as they go.
-Repeat this process for a sufficient number of episodes until the Q-values converge.
+Repeat this process for a sufficient number of episodes (here 1000) until the Q-values converge.
 
 ## 6. Path Extraction:
 
-* Once the Q-values have converged, the postman can choose the action with the highest Q-value at each state to determine the optimal path.
+* Once the Q-values have converged, the postman AI Agent can choose the action with the highest Q-value at each state to determine the optimal path.
 
 ## 7. Testing:
 
