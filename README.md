@@ -100,7 +100,7 @@ By following these steps, the postman can efficiently learn the shortest paths b
 * https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
 * https://www.semanticscholar.org/paper/Markov-Decision-Processes%3A-Concepts-and-Algorithms-Otterlo-Wiering/968bab782e52faf0f7957ca0f38b9e9078454afe
 * https://link.springer.com/article/10.1007/BF00115009
-* https:/ml.edu/ecg/uploads/AIfall14/MDPApplications3.pdf
+* https://www.cs.uml.edu/ecg/uploads/AIfall14/MDPApplications3.pdf
 
 
 
