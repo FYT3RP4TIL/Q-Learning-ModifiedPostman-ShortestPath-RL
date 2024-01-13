@@ -96,6 +96,13 @@ Repeat this process for a sufficient number of episodes (here 1000) until the Q-
 
 By following these steps, the postman can efficiently learn the shortest paths between the item packaging area and all other locations within the city, optimizing the delivery process.
 
+## References  - 
+* https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+* https://www.semanticscholar.org/paper/Markov-Decision-Processes%3A-Concepts-and-Algorithms-Otterlo-Wiering/968bab782e52faf0f7957ca0f38b9e9078454afe
+* https://link.springer.com/article/10.1007/BF00115009
+* https:/ml.edu/ecg/uploads/AIfall14/MDPApplications3.pdf
+
+
 
 
 
