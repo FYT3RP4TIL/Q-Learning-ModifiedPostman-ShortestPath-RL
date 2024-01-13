@@ -20,11 +20,11 @@ The AI agent's goal is to learn the shortest path between the item packaging are
         * Down
         * Left
 
-![Screenshot 2024-01-13 183818](https://github.com/Sudhanshu21xx/Q-Learning-ModifiedPostman-ShortestPath-RL/assets/113416452/e8ac7b4f-df28-4185-8d77-5d3b94142f4c)
+  ![Screenshot 2024-01-13 183818](https://github.com/Sudhanshu21xx/Q-Learning-ModifiedPostman-ShortestPath-RL/assets/113416452/e8ac7b4f-df28-4185-8d77-5d3b94142f4c)
 
 * Reward Function: The reward is the negative distance traveled.The agent may begin at any white square, but its goal is always the same: *to maximize its total rewards*.
 
-![Screenshot 2024-01-13 184441](https://github.com/Sudhanshu21xx/Q-Learning-ModifiedPostman-ShortestPath-RL/assets/113416452/3c537e43-c4ea-434e-bf10-828e097029d5)
+  ![Screenshot 2024-01-13 184441](https://github.com/Sudhanshu21xx/Q-Learning-ModifiedPostman-ShortestPath-RL/assets/113416452/3c537e43-c4ea-434e-bf10-828e097029d5)
 
 ## 2. Initialize Q-table:
 
